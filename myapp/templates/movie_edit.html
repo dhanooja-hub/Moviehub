@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+
+
+{%block main_block%}
+
+
+
+<div class="conatiner">
+    <h1>Edit Movie</h1>
+    <form action="" method="post">
+        {%csrf_token%}
+        {{form}}
+        <button type="submit">Add</button>
+    </form>
+    
+    
+
+</div>
+
+
+{%endblock%}

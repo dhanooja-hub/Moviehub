@@ -1,0 +1,156 @@
+schema=movies
+attributes:title,year,director,run_time,language,genre
+
+1)api for listing all movies
+
+url:localhost:8000/api/movies/
+
+method=get
+
+body=nill
+
+status=pending
+
+2)api for creating a new movies
+
+url:localhost:8000/api/movies/
+
+method=post
+
+body:{
+"title":"movie title",
+"year":"movie year",
+"director":"movie director",
+"run_time":"movie run_time",
+"language":"movie language",
+"genre":"movie genre"
+}
+
+status=pending
+
+3)api for fetching a specific movie
+
+url:localhost:8000/api/movies/{id}/
+
+method=get
+
+body=nill
+
+4)api for updating specific movie
+
+url:localhost:8000/api/movies/{id}/
+
+method=put
+
+body:{
+"title":"movie title",
+"year":"movie year",
+"director":"movie director",
+"run_time":"movie run_time",
+"language":"movie language",
+"genre":"movie genre"
+}
+
+status=pending
+
+5.api for deleting particular movie
+
+url:localhost:8000/api/movies/{id}/
+
+method=delete
+
+body=nill
+
+status=pending
+
+
+
+schema :actor
+
+attributes=name,age,picture,gender
+
+1.api for listing all actors
+
+    url:localhost:8000/api/actors/
+
+    method:get
+
+    body:nill
+
+    status=pending
+
+2.api creating actor
+
+    url:localhost:8000/api/actors/
+
+    method:post
+
+    body:{"name":"name",
+    "age":"age",
+    "picture":"picture",
+    "gender":"gender"}
+
+    status=pending
+
+3.Api for fetching a specific actor
+
+    url:localhost:8000/api/actors/{id}/
+
+    method:Get
+
+    body:Nill
+
+    status=pending
+
+4.Api for updating actor
+
+    url:localhost:8000/api/actors/{id}/
+
+    method: Put
+
+    body:{"name":"name",
+    "age":"age",
+    "picture":"picture",
+    "gender":"gender"}
+
+    status=pending
+
+
+5.Api for deleting actor
+
+    url:localhost:8000/api/actors/{id}/
+
+    method:Delete
+
+    body:Nill
+
+    status=pending
+
+
+*) api call for adding a new track
+
+    url:localhost:8000/api/albums/{id}/add_track/
+
+    method=post
+
+    body:{title,duration,track_number,singers,genre}
+
+1)Api for adding a review
+
+    url:localhost:8000/api/albums/{id}/add_review/
+
+    method=post
+
+    body:{comment,rating,user}
+
+
+
+
+
+
+
+
+
+
+
+
